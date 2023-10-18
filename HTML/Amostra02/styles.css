@@ -1,0 +1,13 @@
+#p-first{
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+p{
+    font-size: 24px;
+}
+
+.p-color{
+    color: darkred;
+}

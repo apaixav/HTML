@@ -1,0 +1,26 @@
+#p-first{
+    font-size: 40px;
+    font-weight: bold;
+    color: darkmagenta;
+}
+#p-second{
+    font-size: 32px;
+    font-weight: bold;
+    color: darkred;
+}
+
+p{
+    font-size: 24px;
+}
+
+.p-color{
+    font-size: 32px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.p-preco{
+    font-size: 24px;
+    color: darkgreen;
+    font-weight: bold;
+}
