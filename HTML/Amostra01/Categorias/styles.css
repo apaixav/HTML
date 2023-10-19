@@ -1,7 +1,8 @@
 #p-first{
     font-size: 40px;
     font-weight: bold;
-    color: darkmagenta;
+    color: rgb(18, 109, 206);
+    border: 2px solid rgb(18, 109, 206);
 }
 #p-second{
     font-size: 32px;
@@ -15,12 +16,48 @@ p{
 
 .p-color{
     font-size: 32px;
-    color: darkblue;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.p-colorCuriosidade{
+    font-size: 18px;
+    color: whitesmoke;
     font-weight: bold;
 }
 
 .p-preco{
     font-size: 24px;
-    color: darkgreen;
+    color: rgb(23, 148, 23);
     font-weight: bold;
+}
+
+body{
+    background-color: #222425;
+    padding: 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    flex-direction: column;
+
+    font-size: 32px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.containerContato{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+
+    font-size: 24px;
+    color: whitesmoke;
+
+    border: 2px;
+    padding: 16px purple;
+    margin: 32px;
 }
